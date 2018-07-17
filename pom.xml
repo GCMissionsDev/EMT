@@ -34,12 +34,12 @@
                         <!--<configuration>-->
                             <!--<arguments>install</arguments>-->
                         <!--</configuration>-->
-                    <!--</execution>                   -->
+                    <!--</execution>-->
                 <!--</executions>-->
             </plugin>
         </plugins>
-            <pluginManagement>
-                    <plugins>
+        <pluginManagement>
+            <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
