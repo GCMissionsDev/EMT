@@ -189,6 +189,12 @@ span.close:hover{
 	color: #00fff6;
 }
 
+#refreshImg {
+	height:80%;
+	width:80%;
+	margin-top: 10%
+}
+
 .reset{
 	right: 3%;
 }
