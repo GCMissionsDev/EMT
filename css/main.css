@@ -481,8 +481,8 @@ span.close:hover{
  
  
 .scrollbar::-webkit-scrollbar{
-  width: 6px;
-  height: 6px;
+  width: 12px;
+  height: 12px;
 }
 
 .scrollbar::-webkit-scrollbar-track{
