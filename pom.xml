@@ -2,39 +2,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.hengtiansoft</groupId>
-    <artifactId>crh_web</artifactId>
+    <artifactId>emt</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <build>
+        <finalName>emt</finalName>
         <plugins>
             <plugin>
-                <groupId>com.github.eirslett</groupId>
-                <artifactId>frontend-maven-plugin</artifactId>
-                <version>1.0</version>
-
-                <executions>
-                    <execution>
-                        <id>install node and npm</id>
-                        <goals>
-                            <goal>install-node-and-npm</goal>
-                        </goals>
-                        <configuration>
-                            <nodeVersion>v4.4.7</nodeVersion>
-                            <npmVersion>2.15.8</npmVersion>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>npm install</id>
-                        <goals>
-                            <goal>npm</goal>
-                        </goals>
-                        <!-- Optional configuration which provides for running any npm command -->
-                        <configuration>
-                            <arguments>install</arguments>
-                        </configuration>
-                    </execution>                   
-                </executions>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <outputDirectory>/opt/apache-tomcat-7.0.88/webapps/</outputDirectory>
+                </configuration>
             </plugin>
         </plugins>
             <pluginManagement>
@@ -59,6 +39,11 @@
                                 <directory>img</directory>
                                 <filtering>false</filtering>
                                 <targetPath>img</targetPath>
+                            </resource>
+                            <resource>
+                                <directory>mock/img</directory>
+                                <filtering>false</filtering>
+                                <targetPath>mock/img</targetPath>
                             </resource>
                             <resource>
                                 <directory>js</directory>
