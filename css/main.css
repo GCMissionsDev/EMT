@@ -87,8 +87,8 @@ span.close{
 	position: absolute;
 	top:-10px;
 	right: -10px;
-	width: 2%;
-	height: 2.2%;
+	width: 5%;
+	height: 5.5%;
 	margin: 3%;
 	background: url('../img/icon-close.png') no-repeat;
 	background-size: 100% 100%;
@@ -298,7 +298,7 @@ span.close:hover{
 }
 .res{
 	float: left;
-	height: 98%;
+	height: 88%;
 	background: url('../img/resBox.png') no-repeat;
 	background-size: 100% 100%;
 	position: relative;
@@ -343,11 +343,11 @@ span.close:hover{
 	background-size: 100% 100%;
 }
 .iframeBox #iframe{
-	width: 92%;
-	height: 91%;
+	width: 88%;
+	height: 87%;
 	position: absolute;
-	top: 6%;
-	left: 4%;
+	top: 9%;
+	left: 5%;
 }
 .iframeBox #iframe iframe,.iframeBox #iframe video{
 	width: 100%;
