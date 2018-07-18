@@ -1,0 +1,6 @@
+{
+  "/crh-admin/web/mission/show": "/mission",
+  "/crh-admin/web/partner/show": "/partner",
+  "/crh-admin/web/resource/show": "/resource",
+  "/crh-admin/web/slide/show": "/slide"
+}
