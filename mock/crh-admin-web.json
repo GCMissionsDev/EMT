@@ -1,0 +1,406 @@
+{
+  "mission": {
+    "modelId": 1,
+    "missions": [
+      {
+        "id": 1,
+        "title": "Whole Gospel for the Whole World  ",
+        "content": "Recognizing that the Gospel includes both word and deed, we will approach missions holistically to meet the needs of the least among us. We focus on vulnerable peoples through advocacy, relief and development. ",
+        "delFlag": "1",
+        "createDate": "2017-03-09 10:44:35"
+      },
+      {
+        "id": 2,
+        "title": "Ministry Integration and Alignment ",
+        "content": "Recognizing the reality of the world at our doorstep, we will work to integrate our local, regional and global outreach efforts, addressing communities wherever they are located, e.g. Haitians in Greater Boston as well as those living in Haiti. ",
+        "delFlag": "1",
+        "createDate": "2017-03-09 10:44:49"
+      },
+      {
+        "id": 3,
+        "title": "Partnership with Indigenous Leaders ",
+        "content": "Our primary investment will be directed towards building strong partnerships with indigenous leaders who have the language, cultural understanding and the respect of their communities. We seek to learn where God is working and how we can partner together to best build God&#39;s kingdom. ",
+        "delFlag": "1",
+        "createDate": "2017-03-09 10:44:58"
+      },
+      {
+        "id": 4,
+        "title": "Congregational Motivation, Education and Mobilization ",
+        "content": "We want to help our congregations learn what God is doing locally and globally and hear his invitation to join him in it. Recognizing the God-given talents, vocational skills and spiritual gifting of the Grace Chapel congregation, we will work with our partners to mutually leverage congregational capacities for maximum kingdom impact.",
+        "delFlag": "1",
+        "createDate": "2017-03-09 10:45:08"
+      }
+    ],
+    "salutatoryEntity": null
+  },
+  "partner": {
+    "code": "ACK",
+    "message": "SUCCESS",
+    "data": [
+      {
+        "name": "Restricted",
+        "color": "#ff0080",
+        "item": [
+          {
+            "name": "RES",
+            "item": [
+              {
+                "name": "David and Jackie Ro",
+                "imgSrc": "../mock/img/26a941c8-0b75-43e3-9a58-ab7d998c729d.jpg",
+                "title": "David and Jackie Ro",
+                "content": "David is the new Director of the J Christy Wilson, Jr. Center for World Missions at Gordon-Conwell Theological Semiary."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Retirees",
+        "color": "#80ff00",
+        "item": [
+          {
+            "name": "RET",
+            "item": [
+              {
+                "name": "Merv &amp; Dona Breneman",
+                "imgSrc": "../mock/img/af0cfa31-b9ec-41cf-ac58-7bcc509ef625.jpg",
+                "title": "Merv &amp; Dona Breneman",
+                "content": "Latin American &amp; Spain â€“ We served with Latin America Mission for 45 years in Costa Rica and Argentina. Now as retirees living in Penney Farms Retirement Community near St Augustine, Florida, we continue to be involved in reaching Spanish speaking people for Christ (through Global Media Outreach, evangelism and discipling via internet) and helping prepare leaders in Latin American countries and Spain through online teaching for Prometa and ESEPA. Although we are working as volunteers, we really seem to be busier than ever. We praise God for the opportunities he is giving us in counseling seekers and new believers and helping prepare many choice servants."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Greater Boston",
+        "color": "#408080",
+        "item": [
+          {
+            "name": "USA",
+            "item": [
+              {
+                "name": "New Life Home for Women and Children",
+                "imgSrc": "../mock/img/3b452903-deb0-4df9-ac08-7d8d2c031f4f.jpg",
+                "title": "New Life Home for Women and Children",
+                "content": "Manchester, New Hampshire â€“ New Life is a home for transformations. It is a place for women to start over, to renew their lives. A voluntary, residential treatment facility like few others, the Home&#39;s mission is to come alongside women with alcohol/drug dependencies, abusive relationships, and destructive lifestyles. The goal is to rebuild and restore broken lives in an atmosphere of hope and trust.  The method is to deal with the individualâ€™s whole being; body, soul, and spirit. The program takes a holistic approach, dealing not only with the obvious dependency issues, but also with fundamental issues of self-esteem and the ability to manage family, household, and employment. Through peer support, a loving staff, and strong leadership, the women enter into a partnership to put their lives back together so they can enjoy a self-sufficient and productive life in todayâ€™s society.\\n\\nFor more information about New Life Home for Women and Children, please visit www.newlifehome.org"
+              },
+              {
+                "name": "Hagar&#39;s Sisters",
+                "imgSrc": "../mock/img/9fc3cff0-3d7c-46a3-8595-374e5336f997.jpg",
+                "title": "Hagar&#39;s Sisters",
+                "content": "Boston Metro West, North Shore Massachusetts â€“ For a woman who has experienced the life-shattering effect of domestic violence, Hagarâ€™s Sisters is a Christian domestic violence non-profit ministry that offers holistic services that empower her to find healing, a new healthy way of life for her and her children that is free from abuse, and a deeper relationship with God. Unlike other domestic violence organizations, Hagarâ€™s Sisters has the distinctive ability to address the spiritual aspects of abuse through the lens of the Christian faith. Hagarâ€™s Sisters also engages with individuals, churches and businesses to help bring awareness of domestic violence through opportunities for education, volunteerism, and service projects. \\n\\nFor more information about Hagar Sisters, please visit www.hagarssisters.org/."
+              },
+              {
+                "name": "Place of Promise",
+                "imgSrc": "../mock/img/b63623ec-fc41-4d74-ad7f-77957e9f6690.png",
+                "title": "Place of Promise",
+                "content": "Lowell, Massachusetts â€“ The primary mission of Place of Promise is to help each person find new life in relationship with God through Jesus Christ.  We work together to pursue healing, empowered by the Holy Spirit.  Each aspect of ministry at Place of Promise (Residential Treatment, Mentor Training, Kids of Promise and The Promise Network) is designed to focus on that goal.  For example, the basic criterion for admission to our Residential Treatment Program is not a specific diagnosis or problem but a willingness to choose life and to follow through on that choice.  At Place of Promise, we believe that we live abundantly by learning to know ourselves, each other and God more intimately.\\n\\nFor more information about Place of Promise, please visit http://www.placeofpromise.org/."
+              },
+              {
+                "name": "Emmanuel Gospel Center, Inc.",
+                "imgSrc": "../mock/img/d54580d4-33f1-4c7a-b3c5-15b367d2e910.jpg",
+                "title": "Emmanuel Gospel Center, Inc.",
+                "content": "Jeff Bass\\nGreater Boston Area â€“ Emmanuel Gospel Centerâ€™s mission is to strengthen Christian leaders to serve urban communities. We believe the Church is Godâ€™s chosen instrument to bring his life and presence into our communities. Therefore, our work is designed to support what God is doing through his Church in urban Greater Boston. We take time to learn how the city, the church, and their related systems are changing; we connect with the people involved to build strong working relationships; and we equip where it is most strategic, providing teaching, training, tools and resources for effective ministry. As we invest in Christian leaders, we strengthen the Churchâ€™s ability to leverage healthy change that helps build urban communities that support and care for everyone.\\n\\nFor more information about EGC, please visit http://egc.org. "
+              },
+              {
+                "name": "Grace Chapel ESOL",
+                "imgSrc": "../mock/img/e4fff052-299f-48d2-9c92-6108fc707bd3.jpg",
+                "title": "Grace Chapel ESOL",
+                "content": "Lexington, Massachusetts â€“ The Grace Chapel English for Speakers of Other Languages (ESOL) Ministry serves those among us who are seeking to learn or improve their English language abilities. We offer classes at various times and strive to engage with our students in the classroom and during other special events.\\n\\nFor more information about Grace Chapel ESOL, please visit www.grace.org/esol."
+              },
+              {
+                "name": "Boston Rescue Mission",
+                "imgSrc": "../mock/img/62d49091-80a1-4ecc-a101-7515b52483ba.jpg",
+                "title": "Boston Rescue Mission",
+                "content": "John Samaan\\nBoston, Massachusetts â€“ The Boston Rescue Mission, established in 1899, has been the love of God through Jesus Christ for people who are poor, struggling with many life and addiction challenges, and homeless for more than 115 years. We strive to create a healing community where the poor are nourished, lives at risk are transformed and homelessness is both prevented and ended. An array of programs provides hot meals, warm and safe shelter, transitional and recovery programs and critically needed services for men and women who are homeless, hungry, in recovery from addiction, veterans, and others in need. For more than 23 years, Rev. John Samaan has led the Mission and a core team of dedicated staff through the challenging and rewarding work of bringing Godâ€™s love to those seeking healing. Rev. Samaan has served people in need in Boston, previously in the Skid Row area of Los Angeles, and growing up in the slums of Alexandria in Egypt. Along the way, Rev. Samaan has collected degrees in Engineering, Business Administration, and Divinity, authored the book Parables to Live By, and received recognition from local mayors, state legislatures, and the U.S. President and Vice President. Your prayers and support for this ministry are deeply appreciated.\\n\\nFor more information about Boston Rescue Mission, please visit www.brm.org"
+              },
+              {
+                "name": "Lisa Oelerich",
+                "imgSrc": "../mock/img/52e68d59-dfdc-4ddd-8f93-191e0acb31ac.jpg",
+                "title": "Lisa Oelerich",
+                "content": "Lisa Oelerich\\nWakefield, Massachusetts â€“ Lisa Oelerich serves with Alpha New England as the Regional Director for Greater Boston. She enjoys building and equipping teams to ignite new outreach initiatives and provides information, training and support to those wishing to launch the Alpha Course. Lisa has been involved with the ministry of Alpha for the past 15 years. She is passionate about creating safe places for people to explore questions about life and faith. She feels especially called to reach those seem disenfranchised by religion, overlooked or on the fringes of society.\\n\\nFor more information about Alpha New England, please visit http://alphausa.org/."
+              },
+              {
+                "name": "PEER Servants",
+                "imgSrc": "../mock/img/83d91c21-89c7-4bca-95a3-1fffcecf5ab8.jpg",
+                "title": "PEER Servants",
+                "content": "Todd and Leslie Engelsen\\nWorldwide â€“ PEER Servantsâ€™ mission is to join the Holy Spirit in extending the kingdom of heaven to earth, here and now, to the materially poor and non-poor.  We pursue that through strategic partnerships with indigenous Christian microfinance institutions around the world that offer economic, social, and spiritual empowerment to almost 200,000 of the materially poor.  We work through a global community of approximately 150 very dedicated volunteers who offer their services to PEER Servants and these MFIs pro bono while being encouraged and trained to become a true disciple of Jesus and join Him in extending His kingdom from heaven to earth.\\n\\n Interested in becoming a volunteer? Email us at volunteer@peerservants.org."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "East Asia and Pacific",
+        "color": "#ff8000",
+        "item": [
+          {
+            "name": "CHN",
+            "item": [
+              {
+                "name": "James &amp; Mimi Taylor",
+                "imgSrc": "../mock/img/f8b17c3e-2db9-4d35-9644-630e8412f23c.jpg",
+                "title": "James &amp; Mimi Taylor",
+                "content": "Europe, Central Asia, East &amp; Southeast Asia â€“ James (Jamie) and Mimi have been a part of OMF International since 1990, serving first in Taiwan among students and then in 1996 shifting over to Hong Kong to serve amongst the Chinese church in Asia and beyond.  OMFâ€™s Chinese Church Ministry and Missions three prong strategy: Equipping Leaders, Empowering Churches, and Engaging in Cross-cultural missions. Jamie and Mimi have three children: James (V), Selina, and Joy.\\n\\nFor more information about OMF, please visit https://omf.org/."
+              }
+            ]
+          },
+          {
+            "name": "THA",
+            "item": [
+              {
+                "name": "Seth &amp; Lauren Vitrano-Wilson",
+                "imgSrc": "../mock/img/dec251d8-8889-4644-a2a8-7afb4c8a15a6.jpg",
+                "title": "Seth &amp; Lauren Vitrano-Wilson",
+                "content": "Seth and Lauren have been happily serving in Thailand since 2010.  Seth works as the Orthography Coordinator for the region, an essential role in Bible translation and the development of literacy materials. Lauren is the Language &amp; Culture Learning Coordinator for Thailand and the region, helping translators and other Bible translation support workers to learn the languages and cultures needed to work effectively in the region as effective witnesses for Christ. We love the work we do and are thankful our family can be part of Godâ€™s plan for bringing His Word to the people of mainland Southeast Asia. Thank you for your prayers for us and for being co-laborers in this work of eternal impact."
+              },
+              {
+                "name": "Sam &amp; Pat Sarvis",
+                "imgSrc": "../mock/img/8d80cecd-54c7-4f59-b12b-26fca4fb47d3.jpg",
+                "title": "Sam &amp; Pat Sarvis",
+                "content": "Bangkok, Thailand &amp; Southeast Asia â€“ Sam &amp; Pat Sarvis have been serving with Youth With A Mission (YWAM) Thailand since 1981. Their heart is to bring the healing life of Jesus to the broken and hurting while helping people find and fulfill Godâ€™s eternal purpose for their lives. Their ministry has a dual focus of reaching out to homeless, sex workers, deaf, and urban refugees in Bangkok, and also helping mentor, train and equip leaders for missions around Southeast Asia.\\n\\nFor more information about YWAM Thailand, please visit http://www.ywamthai.org/."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Latin America and Caribbean",
+        "color": "#80ffff",
+        "item": [
+          {
+            "name": "ECU",
+            "item": [
+              {
+                "name": "Bruce &amp; Cherith Rydbeck",
+                "imgSrc": "../mock/img/acf479cb-71d4-4c6c-a77c-39c9f263fa88.jpg",
+                "title": "Bruce &amp; Cherith Rydbeck",
+                "content": "Quito, Ecuador â€“ Bruce, a civil engineer, serves as a rural water supply consultant for Life Giving Water International, enabling rural communities to build or rehabilitate their water system.   They serve together with Kawsaypak Yaku, an Ecuadorian Kichwa mission helping remote communities in the Andes Mountains to improve physical and spiritual health. They also provide international consulting help to other ministries. Ecuadorians and expatriates are discipled in Biblically-based community development ministry. Former interns serve in Africa, Asia, and Latin America. In addition to the ministry in clean water, Cherith speaks at conferences and provides prayer/counseling/mentoring for women.  Bruce &amp; Cherith have two married sons, a daughter, and four grandchildren.  They have served in Ecuador since 1981.\\n\\nFor more information about World Outreach Ministries, please visit http://worldoutreach.org/."
+              }
+            ]
+          },
+          {
+            "name": "GTM",
+            "item": [
+              {
+                "name": "Potters House - Hector &amp; Margarita Rivas",
+                "imgSrc": "../mock/img/0ca01655-5898-4309-baf8-c68c5e3f3848.jpg",
+                "title": "Potters House - Hector &amp; Margarita Rivas",
+                "content": "Potterâ€™s House is a Christ-centered organization founded by two Guatemalans who were inspired to take action through their experiences working with the extreme poverty found in Guatemala City&#39;s trash dump. For 30 years we have been walking alongside poor individuals, families, and communities to develop long-term relationships and community centers that we work to build together. Unlike organizations that simply address economic or physical poverty, Potter&#39;s House seeks to deliver five holistic development programs through our community centers: Family Development, Education, Health and Nutrition, Micro-Enterprise and Community Development. From physical to spiritual to mental transformation, we want to empower the poor across Guatemala to make significant changes in their own lives and their communities."
+              }
+            ]
+          },
+          {
+            "name": "HTI",
+            "item": [
+              {
+                "name": "Hope for the Children of Haiti",
+                "imgSrc": "../mock/img/b27e4581-9189-4c00-aefe-ed99f5fd52e9.png",
+                "title": "Hope for the Children of Haiti",
+                "content": "Port-au-Prince, Haiti â€“ Over two decades ago Marion Austin, a Grace Chapel member, witnessed the devastating plight of orphans in Haiti. In response, the HFC family and ministry were established 20 years ago.\\n\\nFrom humble beginnings, we now provide for the direct care and needs of 75 children and young adults.  By Godâ€™s grace and provision, we invest in a future of opportunity, share hope in Christ and we love them like family.\\n\\nThe Marion Austin Christian school serves 400 additional students from the immediate neighborhood, providing each child with a quality education and, what may be, their only hot meal of the day. \\n\\nFor more information about Hope for the Children of Haiti, please visit http://www.hfchaiti.org/."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "South Asia",
+        "color": "#f1f129",
+        "item": [
+          {
+            "name": "IND",
+            "item": [
+              {
+                "name": "Good News for India",
+                "imgSrc": "../mock/img/a7f014a8-0776-4fe9-941c-262df2794800.jpg",
+                "title": "Good News for India",
+                "content": "India â€“ Since 1986 Good News for India has been serving the Lord in north India by training, sending and supporting national Christians to preach the Gospel and start churches in unreached places and among unreached people groups. We also serve the poor and needy in the name of Jesus by providing quality primary and secondary education through several Christian schools, caring for several hundred desperately poor children through child-care ministries and orphanages, providing skill training to needy women to achieve better quality of life and providing emergency relief work in times of disasters.\\n\\nFor more information about Good News for India, please visit http://www.goodnewsforindia.org/\\n"
+              },
+              {
+                "name": "Bengali Christian Ministry",
+                "imgSrc": "../mock/img/3b3ef06a-cf91-4236-bfe8-7a82f4d7469d.jpg",
+                "title": "Bengali Christian Ministry",
+                "content": "West Bengal, India â€“ Bengali Christian Ministry seeks to mobilize, train, and support Bengali Christian leaders in Kolkata and the state of West Bengal, India. We partner with Bengali Christian Network (BCNetwork), a registered Charity in West Bengal, India a relationship with 70+ Bengali Christian leaders from across the state. Bengali Christian Ministry (BCM-USA) seeks to establish relationships with Bengali Christian leaders in West Bengal, India, and provide training, resources, encouragement, and support in the various ministries of Bengali Christian leaders and the community ministries in which they engage. In this way, BCM-USA hopes to improve the lives of both Bengali Christians and the wider communities in which they live, regardless of faith community. BCM seeks to focus on three tiers of training and support, beginning with &#34;Grass roots&#34; training for Christian leadership development throughout the state of West Bengal.\\n\\nFor more information about Bengali Christian Ministry, please visit www.bc-ministry.org."
+              }
+            ]
+          },
+          {
+            "name": "NPL",
+            "item": [
+              {
+                "name": "Ebenezer Bible College",
+                "imgSrc": "../mock/img/7620d2fe-b54f-4895-9305-2913f4eb52f5.jpg",
+                "title": "Ebenezer Bible College",
+                "content": "Ram Kumar Budhathoki\\nKathmandu, Nepal â€“ Considering the growing needs of theologically trained people in Nepal in order to produce spiritual leaders and strengthen the churches, which were and are rapidly growing throughout the country, Nepal Ebenezer Bible College (NEBC) was established in 1992 as a wing of National Churches Fellowship of Nepal (NCFN). Our mission is building up  servant-leaders with Christ-like character, rooted in the  Scripture &amp; equipped for the holistic ministry. We offer Bachelor of Theology (B.Th) and Master of Divinity (M.Div.)"
+              },
+              {
+                "name": "NBCBS (IFES Nepal)",
+                "imgSrc": "../mock/img/658d0095-af9e-4c16-b9f8-32909b2b5c01.jpg",
+                "title": "NBCBS (IFES Nepal)",
+                "content": "Ram Kumar Lama\\nNBCBS (IFES Nepal) exists to reach high school, college and university students of Nepal with gospel of Jesus Christ focusing on student and youth leadership development, evangelism and discipleship. It facilitates Christian students to form student groups, run prayer cell on high school, college and university and Bible study groups in communities as well as involve community welfare work. NBCBS conduct evangelistic and discipleship camps, leadership trainings for students and youth leaders.\\n\\nFor more information about NBCBS Nepal, please visit http://www.nbcbs.org.np/."
+              },
+              {
+                "name": "Prison Fellowship Nepal",
+                "imgSrc": "../mock/img/78d893b5-9918-49dd-af41-de931b02c26c.jpg",
+                "title": "Prison Fellowship Nepal",
+                "content": "Dinesh Neupane\\nNepal â€“ Prison Fellowship Nepal is a non-profit, non-government Christian organization established in 1990 and affiliated with Prison Fellowship International. This is one of the most committed Christian ministry and heading toward the service of His people. It works for prisoners, ex-prisoners and their families including crime victimized families."
+              },
+              {
+                "name": "Bethel Church Ministries",
+                "imgSrc": "../mock/img/cd73f992-8d34-4f83-a336-59e43a506f12.jpg",
+                "title": "Bethel Church Ministries",
+                "content": "Samuel and Karuna Bomzon\\nKathmandu, Nepal â€“ We have been involved in Church planting ministries and leadership development since 1981 under the umbrella of AOG denomination. My ministry began planting the Bethel Church in Kathmandu in 1981 now with a congregation of 800 members. I got married to Karuna in 1984. We have two grownup sons Ujjwal and Prajjwal. The ministry of the Bethel church expanded planting 130 daughter churches during the last 36 years. The Focus of Bethel Church Ministries is to plant and empower the local church and develop leaderships and reach out to the communities with the transforming love of Jesus Christ and see the local churches become a resource center to the whole community. We are involved in assisting to the communities to develop and empower in their spiritual, social and economic condition as well. We are based in Kathmandu and frequently travel to many parts of the country to strengthen the newly founded and established churches. We want to see every church well established and want to establish a church in every district headquarters of Nepal and reach out to every villages and transformed the country of Nepal.   "
+              }
+            ]
+          },
+          {
+            "name": "LKA",
+            "item": [
+              {
+                "name": "Youth for Christ",
+                "imgSrc": "../mock/img/146a50c8-9a9f-4aa7-9e73-ce7571883b5a.jpg",
+                "title": "Youth for Christ",
+                "content": "Sri Lanka â€“ YFC is an interdenominational Christian organization that has been involved in the lives of Sri Lankan youth for over 50 years, enhancing their social status through various means including youth clubs, youth activities, sport and talent activities, educational activities and rehabilitating youth who have various addictions. The organization is committed to look into the spiritual, emotional, physical and social needs of the youth irrelevant of their ethnic, religious and cultural backgrounds. It aims to help the youth to build good values in lives and to assist them to reach their potential."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Middle East and North Africa",
+        "color": "#be9649",
+        "item": [
+          {
+            "name": "EGY",
+            "item": [
+              {
+                "name": "Bible Society of Egypt",
+                "imgSrc": "../mock/img/5cda1b6f-f4e3-482a-a209-9b877a865027.jpg",
+                "title": "Bible Society of Egypt",
+                "content": "Egypt â€“ The Bible Society of Egypt exists to make the Scriptures available and accessible to all in Egypt, at an affordable price, in a language people can understand, and in ways and programs that can help each one comprehend the message and effectively apply it. The primary strength of the Bible Society of Egypt is our vision and our ability to penetrate all of society with a very broad and extensive impact, serving both the church and the majority. As the Bible publisher for all the churches of Egypt, we support and enable all the various ministries with creative Scripture resources and tools.  Our main focus continues to be to strengthen and deepen Christians in their faith, and to equip them with materials that they can share with their neighbours as well. We take a deliberate role in affirming basic Biblical truths to people of all classes and persuasions, all ages and economic and educational levels, providing the way to easily access affordable and understandable Scriptures. We seek out creative and non-traditional means of reaching people otherwise unaware of the Scriptures, through participation in book fairs, exhibitions and festivals, permanent and temporary outlets with free home delivery. Public marketing of the Bible through Highway Billboards, Press and TV ads is raising awareness and making the Bible a familiar sight in Egypt.\\n\\nFor more information about Bible Society of Egypt, please visit www.bibles4egypt.com."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Africa",
+        "color": "#2dd239",
+        "item": [
+          {
+            "name": "AGO",
+            "item": [
+              {
+                "name": "Sheila Foster Fabiano",
+                "imgSrc": "../mock/img/c6e49808-7a4d-49cb-b415-083d6c87af94.jpg",
+                "title": "Sheila Foster Fabiano",
+                "content": "Lubango (Republic of Angola, Africa) â€“ ISTEL is a theological college offering a BTh., founded in 1981, owned by the Evangelical Alliance of Angola. I am serving there as a professor in NT and as academic dean and am in Angola through SIMUSA. Since completing my PhD in educational studies at Trinity International University (TEDS) in January, 2015 ISTEL has asked me to take on the role of developing a post-graduate studies department. This is only feasible once there is someone to replace me as academic dean. Since 2012 I have also been the country director for SIM Angola where my role is primarily that of liaison between national church partners and the mission/missionaries.\\n\\nFor more about SIM, please visit www.sim.org."
+              }
+            ]
+          },
+          {
+            "name": "TCD",
+            "item": [
+              {
+                "name": "Jeff &amp; Judy Heath",
+                "imgSrc": "../mock/img/6c6fcc22-1dbe-484f-9f93-5e4cbfc136d5.jpg",
+                "title": "Jeff &amp; Judy Heath",
+                "content": "Chad, Africa â€“ Jeff and Judy have been serving in Chad since 1998, helping to bring Godâ€™s Word to the 130 language groups of Chad. Judy is part of the Bible translation team for a major Chadian language. And Jeff has focused on using computer technology to speed the work of many different translation teams. Both Jeff and Judy are leveraging their recently completed Masters degrees to move into consulting roles, training Africans to better carry on this important work."
+              }
+            ]
+          },
+          {
+            "name": "MWI",
+            "item": [
+              {
+                "name": "World Relief Malawi",
+                "imgSrc": "../mock/img/340887bb-4bc6-4e9b-a622-09c6bfdb718b.jpg",
+                "title": "World Relief Malawi",
+                "content": "Mzimba, Malawi â€“ World Relief Malawiâ€™s mission is to empower the church to serve the most vulnerable. Often referred to as â€œthe Warm Heart of Africaâ€, Malawi is one of the poorest countries in the world, with 50% of the population living on less than $1 per day. Through partnership with Grace Chapel since 2005, World Relief Malawi has been empowering the local church in the Mzimba District to respond to the needs in their communities through leadership formation, child development projects, orphan &amp; vulnerable children care, agricultural development, savings groups, and HIV/AIDS programs. World Reliefâ€™s model places unique emphasis on ensuring churches are not only trained, but equipped to independently sustain these community-based activities. With this focus on sustainability through the Church, World Relief is working to help Malawi reach a critical tipping point, causing a ripple effect that changes the poverty paradigm throughout the entire country.\\n\\nFor more information about World Relief, please visit www.worldrelief.org."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "nonBizError": false
+  },
+  "resource": {
+    "code": "ACK",
+    "message": "SUCCESS",
+    "data": [
+      {
+        "title": "The Remaining Task",
+        "imgSrc": "../mock/img/ac2b091f-af83-4ae5-bd51-7ba0a97ea77c.jpg",
+        "url": "../mock/img/0a1eca66-5e9f-4895-82d0-5f70f0c7e534.mp4",
+        "remarks": "0"
+      },
+      {
+        "title": "World Relief Safe Spaces",
+        "imgSrc": "../mock/img/92f6302a-c974-4f79-8b36-97318ed1100d.PNG",
+        "url": "../mock/img/322df0c5-3a7b-4004-baf8-44118e53ef78.mp4",
+        "remarks": "0"
+      },
+      {
+        "title": "Unreached People Groups",
+        "imgSrc": "../mock/img/59304d62-c375-45be-8696-61c2cf405e10.PNG",
+        "url": "../mock/img/9fc5fc9f-47f5-4545-af3f-7d7765c7a272.mp4",
+        "remarks": "0"
+      },
+      {
+        "title": "World Relief Worship in Turkana",
+        "imgSrc": "../mock/img/158b1622-02f1-4afb-a7df-58f843dcf3fd.PNG",
+        "url": "../mock/img/c368c107-3a15-4fc4-97e6-51890e6a626e.mp4",
+        "remarks": "0"
+      },
+      {
+        "title": "David Platt Urgency of Missions",
+        "imgSrc": "../mock/img/606a224d-0e4a-44c8-aed9-cc0784284024.PNG",
+        "url": "../mock/img/699583f5-bef0-4a1a-990a-4336fe5115ad.mp4",
+        "remarks": "0"
+      },
+      {
+        "title": "World Relief Heroes",
+        "imgSrc": "../mock/img/ebc9a225-ec67-4fe8-adb2-2ae15137506e.PNG",
+        "url": "../mock/img/7e6cf5f5-b7bf-448e-b23a-f343eea05c97.mp4",
+        "remarks": "0"
+      },
+      {
+        "title": "World Relief Hana &amp; Saeed:",
+        "imgSrc": "../mock/img/e1dc0cf4-b2bb-4207-a782-9b5a44336d56.PNG",
+        "url": "../mock/img/0cb4f77f-d5e5-48c6-9928-fe7ebddf6dc5.mp4",
+        "remarks": "0"
+      },
+      {
+        "title": "Operation World",
+        "imgSrc": "../mock/img/b2c22686-be7c-4257-bbfb-ebbb61ca3a8e.ico",
+        "url": "../mock/img/6a839c49-5cf4-4228-9f66-7196294dffd0.pdf",
+        "remarks": "0"
+      }
+    ],
+    "nonBizError": false
+  },
+  "slide": {
+    "code": "ACK",
+    "message": "SUCCESS",
+    "data": {
+      "imageList": [
+        "../mock/img/424c6c26-302c-42a0-af2a-848a7875b38f.jpg",
+        "../mock/img/7eed42f1-c153-4ecb-8349-ed4204fcfa1e.jpg",
+        "../mock/img/03aa6bc2-3be2-4b2d-a0a3-a3c6b0c3bffa.jpg",
+        "../mock/img/853f993b-13aa-4e2d-8637-1b0615133893.jpg",
+        "../mock/img/0fb2c2d6-1213-464f-a361-ea2dfdda5c8f.jpg",
+        "../mock/img/4af22eaf-38f7-4d0b-a01b-87a7e4139b39.jpg",
+        "../mock/img/dfdc2c29-bbae-42c4-818f-a3313932f7e1.jpg",
+        "../mock/img/59da65aa-044c-4339-bdb6-43334b5bd897.jpg",
+        "../mock/img/a2d3b5e8-cd5c-4005-a306-ea7f33dbd2f8.jpg",
+        "../mock/img/21fdebff-0fad-4eef-be8e-881cae550245.jpg",
+        "../mock/img/bd446a4b-17bc-4cfb-a023-3c994da5522b.jpg",
+        "../mock/img/f9e60fad-0d33-46d6-8458-57a5d0eb0017.jpg",
+        "../mock/img/ea37f6f8-5cd4-4926-a23c-752b3fbebfa8.jpg",
+        "../mock/img/fba2bc80-5b62-4859-b2fd-6fe52c83f936.jpg"
+      ]
+    },
+    "nonBizError": false
+  }
+}

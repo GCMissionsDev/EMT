@@ -370,7 +370,7 @@ span.close:hover{
     padding-left: 16%;
 }
 .legendItem{
-	width: 50%;
+	width: 33%;
     float: left;
     height: 3.5em;
 }
@@ -421,8 +421,8 @@ span.close:hover{
 }
 .tooltip .imgbox{
 	width: 100%;
-	height: 48%;
 }
+
 .tooltip .picSide img{
 	width: 100%;
 	height: 100%;
