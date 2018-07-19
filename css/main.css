@@ -464,6 +464,7 @@ span.close:hover{
  	height: 85%;
  	overflow-x: hidden;
  	overflow-y: auto;
+	margin-right: 2.5%;
  }
  .tooltip .PartnerList ul li{
  	line-height: 3.5rem;
@@ -482,8 +483,8 @@ span.close:hover{
  
  
 .scrollbar::-webkit-scrollbar{
-  width: 6px;
-  height: 6px;
+  width: 12px;
+  height: 12px;
 }
 
 .scrollbar::-webkit-scrollbar-track{
