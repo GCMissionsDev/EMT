@@ -463,6 +463,7 @@ span.close:hover{
  	height: 85%;
  	overflow-x: hidden;
  	overflow-y: auto;
+	margin-right: 2.5%;
  }
  .tooltip .PartnerList ul li{
  	line-height: 3.5rem;
