@@ -1,5 +1,6 @@
 (function () {
   const useMockServer = true;
+  const serverMethod = useMockServer ? 'GET' : 'POST';
 
   var apiLocation = useMockServer ? "http://localhost:3000" : window.location.origin;
   var baseURL = apiLocation + '/crh-admin/web';
@@ -174,7 +175,7 @@
     var partnerUrl = baseURL + '/partner/show';
     $.ajax({
       url: partnerUrl,
-      type: 'GET',
+      type: serverMethod,
     }).done(function (data) {
       data = useMockServer ? data : JSON.parse(data);
       if (data.message === 'SUCCESS') {
@@ -189,7 +190,7 @@
     var missionUrl = baseURL + '/mission/show'
     $.ajax({
       url: missionUrl,
-      type: 'GET',
+      type: serverMethod,
     }).done(function (data) {
       data = useMockServer ? data : JSON.parse(data);
       if (data.modelId === 1) {
@@ -299,7 +300,7 @@
     var silderUrl = baseURL + '/slide/show';
     $.ajax({
       url: silderUrl,
-      type: 'GET',
+      type: serverMethod,
     }).done(function (data) {
       data = useMockServer ? data : JSON.parse(data);
       if (data.message === 'SUCCESS') {
@@ -330,7 +331,7 @@
     var resourceUrl = baseURL + '/resource/show';
     $.ajax({
       url: resourceUrl,
-      type: 'GET',
+      type: serverMethod,
     }).done(function (data) {
       data = useMockServer ? data : JSON.parse(data);
       if (data.message === 'SUCCESS') {
