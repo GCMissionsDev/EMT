@@ -315,6 +315,7 @@
       $('.resItem').css('overflow-x', 'hidden');
     }
     $('.resBox').css('width', (document.body.offsetWidth / 7) * data.length + 'px');
+    $('.resBox').css('touch-action', 'pan-x');
     $.each(data, function (i, item) {
       $('.menu .resBox').append('<div class="res" data-url ="' + item.url + '" data-remarks ="' + item.remarks + '">' +
         '<img src="' + item.imgSrc + '" alt="">' +
