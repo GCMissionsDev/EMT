@@ -213,8 +213,8 @@ span.close:hover{
 
 /* resourse */
 .resBoxContainer{
-	height: 82%;
-	padding: 6%;
+	height: 80%;
+	padding: 6% 6% 0% 6%;
 }
 .resSlogan {
 	height: 79%;
@@ -292,9 +292,10 @@ span.close:hover{
 }
 .resItem {
 	height: 30%;
+    width: 100%;
 	overflow-x: auto;
 	overflow-y: hidden;
-	margin-right: 1%;
+	margin: 0% 1%;
 }
 .res{
 	float: left;
