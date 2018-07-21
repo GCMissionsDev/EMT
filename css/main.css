@@ -18,7 +18,7 @@ html {
 }
 @media screen and (min-width: 1920px) {
     html {
-            font-size: 10px
+            font-size: 8px
     }
     .res{
     	width: 202px;
@@ -410,12 +410,11 @@ span.close:hover{
 	height: 100%;
 	padding:10% 4% 0 5%;
 	overflow: auto;
-	height: 81%;
+	height: 85%;
 }
 .tooltip .picSide{
 	float: left;
 	width: 35%;
-	height: 75%;
 	margin-right: 5%;
 	overflow: hidden;
 
@@ -436,7 +435,6 @@ span.close:hover{
 }
 .tooltip .infoSide{
 	width: 98%;
-	height: 81%;
 	margin: 0;
 	text-align: left;
 	font-size: 2rem;
