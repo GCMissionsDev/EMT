@@ -1,9 +1,9 @@
 
 html {
-
 	height: 100%;
     font-size: 16px;
 }
+
 @media screen and (min-width: 1024px) {
     html {
             font-size: 5px
@@ -38,6 +38,7 @@ html {
     	line-height: 4em;
     }
 }
+
 body{
 	width: 100%;
 	height: 100%;
@@ -45,6 +46,8 @@ body{
 	font-family: MicrosoftYaHei,'微软雅黑',Arial,Tahoma,Helvetica,Georgia,Sans-serif,'STXihei','华文黑体',Hei,'Hiragino Kaku Gothic Pro',SimSun;
 	background: url('../img/bg.jpg') no-repeat;
     color: #d2d2d2;
+	line-height: normal;
+	font-size: inherit;
 }
 
 ul, dl, dd {
@@ -98,6 +101,11 @@ span.close:hover{
 	background: url('../img/icon-close-hover.png') no-repeat;
 	background-size: 100% 100%;
 }
+
+#map-close {
+	margin-right: 5%;
+}
+
 .emt-container{
 	width: 100%;
 	// min-width: 1920px;
