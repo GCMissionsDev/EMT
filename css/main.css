@@ -98,7 +98,7 @@ span.close:hover{
 	background: url('../img/icon-close-hover.png') no-repeat;
 	background-size: 100% 100%;
 }
-.container{
+.emt-container{
 	width: 100%;
 	// min-width: 1920px;
 	// min-height: 1080px;
