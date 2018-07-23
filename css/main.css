@@ -189,6 +189,11 @@ span.close:hover{
 	color: #00fff6;
 }
 
+#refresh-button{
+	font-size: 3.5em;
+	padding-top: 2pt;
+}
+
 .reset{
 	right: 3%;
 }
@@ -213,7 +218,7 @@ span.close:hover{
 
 /* resourse */
 .resBoxContainer{
-	height: 80%;
+	height: 91%;
 	padding: 6% 6% 0% 6%;
 }
 .resSlogan {
@@ -221,7 +226,7 @@ span.close:hover{
 }
 .resSlogan div{
 	float: left;
-	width: 44%;
+	width: 48%;
 	padding: 1% 2%;
 	margin: 1%;
 	background: url('../img/resBox.png');
@@ -292,7 +297,7 @@ span.close:hover{
 }
 .resItem {
 	height: 30%;
-    width: 100%;
+    width: 98%;
 	overflow-x: auto;
 	overflow-y: hidden;
 	margin: 0% 1%;
@@ -469,7 +474,7 @@ span.close:hover{
  	padding-left: 15px;
  	cursor: pointer;
  	font-size: 2rem;
- 	word-break:break-word;
+ 	word-break: break-word;
  }
  .tooltip .PartnerList ul li:nth-of-type(odd){
  	background: rgba(11, 45, 73, 0.6)
