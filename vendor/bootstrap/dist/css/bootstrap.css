@@ -6458,8 +6458,8 @@ button.close {
     bottom: 20px;
   }
 }
-.clearfix:before,
-.clearfix:after,
+/*.clearfix:before,*/
+/*.clearfix:after,*/
 .dl-horizontal dd:before,
 .dl-horizontal dd:after,
 /*.container:before,*/
@@ -6493,7 +6493,7 @@ button.close {
   display: table;
   content: " ";
 }
-.clearfix:after,
+/*.clearfix:after,*/
 .dl-horizontal dd:after,
 /*.container:after,*/
 .container-fluid:after,
