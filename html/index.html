@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -7,15 +7,16 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/font/iconfont.css">
+	<link rel="stylesheet" href="../vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <style>
 	
 </style>
 <body>
 
-<div class="container">
+<div class="emt-container">
 	<div class="center clearfix">
 		<div class="slider">
 			<div class="poster-main" id="carousel" > 
@@ -24,7 +25,7 @@
 				<div class="poster-btn poster-next-btn"></div> 
 			</div> 
 		</div>
-		<div class="map box ">
+		<div class="map box">
 			<img src="../img/partners.png" alt="" class="picTitle">
 			<div class="tooltip">
 				<div class="PartnerCard scrollbar">
@@ -44,9 +45,11 @@
 							
 					</ul>
 				</div>
-				<span class="close" style="margin-right: 5%"></span>
+				<span id="map-close" class="close"></span>
 			</div>
-			<div class="map-btn reset"><i class="iconfont icon-reset"></i></div>
+			<div class="map-btn reset">
+				<i id="refresh-button" class="glyphicon glyphicon-refresh"></i>
+			</div>
 			<div class="legendBox scrollbar"></div>
 		</div>
 		<div class="menu box">
