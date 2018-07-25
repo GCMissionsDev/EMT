@@ -315,8 +315,6 @@
       $('.resItem').removeClass('scrollbar');
       $('.resItem').css('overflow-x', 'hidden');
     }
-    $('.resBox').css('width', (document.body.offsetWidth / 7) * data.length + 'px');
-    $('.resBox').css('touch-action', 'pan-x');
     $.each(data, function (i, item) {
       $('.menu .resBox').append('<div class="res" data-url ="' + item.url + '" data-remarks ="' + item.remarks + '">' +
         '<img src="' + item.imgSrc + '" alt="">' +
@@ -324,9 +322,12 @@
         '<h2 title="' + item.title + '">' + item.title + '</h2>' +
         '</div>');
     });
-    var resMarginRight = Math.ceil(($('.resBoxContainer').width() - 3 * $('.res').width()) / 2.3)
-      + 'px';
-    $('.res').css('margin-right', resMarginRight);
+    var resMarginRight = $('.res').width() / 6;
+    $('.res').css('margin-right', resMarginRight + 'pt');
+    // var resMarginRight = Math.ceil(($('.resBoxContainer').width() - 3 * $('.res').width()) / 2.3)
+    //   + 'px';
+    $('.resBox').css('width', (($('.res').width()) * (data.length - .5)) + 'pt');
+    $('.resBox').css('touch-action', 'pan-x');
   };
   var getResourse = function () {
     var resourceUrl = baseURL + '/resource/show';

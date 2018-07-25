@@ -324,16 +324,16 @@ span.close:hover{
 }
 .res img{
 	position: absolute;
-    width: 74%;
-    height: 48%;
-    top: 18%;
-    left: 13%;
+    width: 90%;
+    height: 70%;
+    top: 5%;
+    left: 5%;
 }
 .res img:first-child{
-    width: 66%;
-    height: 40%;
-    top: 23%;
-    left: 17%;
+    width: 80%;
+    height: 56%;
+    top: 12%;
+    left: 10%;
 }
 .res h2{
 	color: #ffca43;
