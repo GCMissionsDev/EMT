@@ -9,7 +9,7 @@
   var mapHam = new Hammer($('.map')[0], {domEvents: true});
   mapHam.get('tap').set({enable: true})
   var resBoxHam = new Hammer($('.resBox')[0], {domEvents: true});
-  var iframeHam = new Hammer($('.iframeBox .close')[0], {domEvents: true});
+  var iframeHam = new Hammer($('.iframeBox .cancel')[0], {domEvents: true});
   var width = parseInt(mapObj.css('width'), 10),
     height = parseInt(mapObj.css('height'), 10);
   var projection = d3.geo.equirectangular();
@@ -66,8 +66,8 @@
         img.attr('src', imgStr.replace(/&amp;/g, '&'));
         TooltipObj.find('.PartnerCard .picSide h2').html(obj.title);
         TooltipObj.find('.PartnerCard .infoSide ').html(obj.content);
-        TooltipObj.find('span.close').addClass('hasList');
-        TooltipObj.find('span.close').data('id', pname);
+        TooltipObj.find('span.cancel').addClass('hasList');
+        TooltipObj.find('span.cancel').data('id', pname);
       }
       TooltipObj.find('.PartnerList').addClass('hide');
       TooltipObj.find('.PartnerCard').removeClass('hide');
@@ -367,12 +367,12 @@
       $('.iframeBox').removeClass('hide');
       $('.resBoxContainer').addClass('hide');
     });
-    $('.iframeBox .close').on('tap', function () {
+    $('.iframeBox .cancel').on('tap', function () {
       $('#iframe').html(' ');
       $('.resBoxContainer').removeClass('hide');
       $('.iframeBox').addClass('hide');
     });
-    $('.close').on('tap', function () {
+    $('.cancel').on('tap', function () {
       if (checkList($(this))) {
         return;
       }
