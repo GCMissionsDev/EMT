@@ -97,25 +97,28 @@ text {
     display: none;
 }
 
-span.close {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 5%;
-    height: 5.5%;
-    margin: 3%;
-    background: url('../img/icon-close.png') no-repeat;
-    background-size: 100% 100%;
-    cursor: pointer;
+span.cancel{
+	position: absolute;
+	top:-10px;
+	right: -10px;
+	width: 5%;
+	height: 5.5%;
+	margin: 3%;
+	background-size: 100% 100%;
+	color: #ffffff;
+	opacity: .6;
+	font-size: 5.5em;
+	cursor: pointer;
 }
 
-span.close:hover {
-    background: url('../img/icon-close-hover.png') no-repeat;
-    background-size: 100% 100%;
+span.cancel:hover{
+	opacity: .8;
+	color: #ffffff;
 }
 
-#map-close {
-    margin-right: 5%;
+#map-cancel {
+	top:-18px;
+	margin-right: 5%;
 }
 
 .emt-container {
@@ -476,11 +479,10 @@ span.close:hover {
     opacity: 1;
 }
 
-.tooltip .PartnerCard {
-    height: 100%;
-    padding: 10% 4% 0 5%;
-    overflow: auto;
-    height: 85%;
+.tooltip .PartnerCard{
+	height: 100%;
+	padding:10% 4% 0 5%;
+	overflow: auto;
 }
 
 .tooltip .picSide {
