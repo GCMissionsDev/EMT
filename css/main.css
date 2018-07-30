@@ -503,9 +503,6 @@ span.cancel:hover{
 }
 
 .tooltip .picSide h2 {
-    width: 100%;
-    height: 50%;
-    overflow-y: auto;
     font-size: 3.5rem;
 }
 
