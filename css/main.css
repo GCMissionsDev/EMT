@@ -456,8 +456,8 @@ span.cancel:hover{
 
 .tooltip {
     font-size: 1rem;
-    height: 97%;
-    width: 98%;
+    height: 100%;
+    width: 100%;
     position: absolute;
     text-align: center;
     border-style: solid;
