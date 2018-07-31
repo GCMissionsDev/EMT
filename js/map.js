@@ -2,7 +2,10 @@
 
   const mapObj = $('.map');
   const mapHam = new hammer(mapObj[0], { domEvents: true });
-  mapHam.get('tap').set({ enable: true });
+  mapHam.get('tap').set({
+    enable: true,
+    time: 1000
+  });
 
   const width = parseInt(mapObj.css('width'), 10),
     height = parseInt(mapObj.css('height'), 10);
