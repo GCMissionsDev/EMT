@@ -1,8 +1,17 @@
 (function($, hammer) {
 
   // Set up touch functionality for the resources
-  hammer($('.resBox')[0], { domEvents: true });
-  hammer($('.iframeBox .cancel')[0], { domEvents: true });
+  const canHam = new hammer($('.iframeBox .cancel')[0], { domEvents: true });
+  canHam.get('tap').set({
+      enable: true,
+      time: 1000
+  });
+
+  const resHam = new hammer($('.resBox')[0], { domEvents: true });
+  resHam.get('tap').set({
+    enable: true,
+    time: 1000
+  });
 
   window.emt = window.emt ? window.emt : { };
   window.emt.resources = {
