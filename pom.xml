@@ -24,6 +24,7 @@
                                 <jsSourceFile>resources.js</jsSourceFile>
                                 <jsSourceFile>values.js</jsSourceFile>
                                 <jsSourceFile>map.js</jsSourceFile>
+                                <jsSourceFile>reset.js</jsSourceFile>
                             </jsSourceFiles>
                             <jsFinalFile>emt.js</jsFinalFile>
                             <jsEngine>CLOSURE</jsEngine>

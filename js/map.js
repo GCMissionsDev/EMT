@@ -115,7 +115,7 @@
              <animate attributeType="CSS" attributeName="stroke-width"  from="${radio * 0.5}" to="${radio * 0.1}" dur="2s" repeatCount="indefinite" />
            </circle>`);
       }
-      svg.selectAll('.mark').data(markData)
+      svg.selectAll('.mark').data(markData);
     }
   };
 
@@ -185,7 +185,7 @@
       ];
       svg.selectAll('g').attr('transform',
         'translate(' + transPos + ')scale(' + d3.event.scale + ')');
-    }
+    };
 
     svg.call(zoom)
       .append('g')
@@ -199,7 +199,7 @@
       .attr('stroke', '#14abe4')
       .attr('fill', '#05204f');
 
-
+  
     emt.server.getPartners(function(data) {
       fillColor(data);
       drawLegend(data);
@@ -228,19 +228,28 @@
   };
 
   const bindEvent = function () {
-    $('.cancel').on('tap', function () {
-      if (checkList($(this))) {
+    $('.map .cancel').on('tap', window.emt.map.cancel());
+    $('.map .reset').on('tap', window.emt.map.reset());
+  };
+
+  window.emt = window.emt ? window.emt : { };
+  window.emt.map = {
+
+    cancel: function () {
+      console.info("cancel called");
+      if (checkList($(".map .cancel"))) {
         return;
       }
-      $(this).parent().removeClass('active');
-    });
-    $('.reset').on('tap', function () {
+      $(".map cancel").parent().removeClass('active');
+    },
+
+    reset: function () {
+      console.info("reset called");
       svg.selectAll('g').attr('transform',
         'translate(0,0)scale(1)');
       const zoom = d3.behavior.zoom()
         .scaleExtent([1, 5])
         .on('zoom', zoomed);
-
       function zoomed() {
         //make sure the map inside the viewport
         //0 > transPos[0] > -width*(d3.event.scale-1)
@@ -254,10 +263,9 @@
         svg.selectAll('g').attr('transform',
           'translate(' + transPos + ')scale(' + d3.event.scale + ')');
       }
-      svg.call(zoom)
-    })
+      svg.call(zoom);
+    }
   };
-
 
   fetchMapData(renderMap);
   bindEvent();
