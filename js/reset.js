@@ -1,35 +1,30 @@
-(function($, hammer) {
+(function($) {
 
   let time = Date.now();
-  const MINUTE_LIMIT = 0.5;
+  const MINUTE_LIMIT = 0.25;
   const TIME_LIMIT = MINUTE_LIMIT * 60000; //MINUTE_LIMIT in milliseconds
+
+  let resetTimeout;
+
+  const resetFn = function() {
+    emt.log.log('resetting screen');
+    emt.map.reset();
+    emt.partners.closeAll();
+    emt.resources.cancel();
+  };
 
   window.emt = window.emt ? window.emt : { };
   window.emt.reset = {
 
     resetTime: function () {
       time = Date.now();
-      setTimeout(emt.reset.checkReset, TIME_LIMIT);
-      console.info(`oh hey there - time:${time} limit:${TIME_LIMIT}`);
-    },
-
-    checkReset: function () {
-      if (Date.now() - TIME_LIMIT >= time){
-        emt.reset.reset();
-      }
-    },
-
-    reset: function () { //TODO: When map.js refactored, use methods
-      console.info('reset');
-      window.emt.map.cancel();
-      window.emt.map.reset();
-      window.emt.resources.cancel();
+      emt.log.trace(`resetTimeout: time:${time} limit:${TIME_LIMIT}`);
+      if (resetTimeout) clearTimeout(resetTimeout);
+      resetTimeout = setTimeout(resetFn, TIME_LIMIT);
     }
 
   };
 
-  console.info("loaded emt.reset fool");
-
   window.emt.reset.resetTime();
 
-})(jQuery, Hammer);
+})(jQuery);

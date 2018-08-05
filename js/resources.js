@@ -50,7 +50,7 @@
         $('.iframeBox').removeClass('hide');
         $('.resBoxContainer').addClass('hide');
       });
-      $('.iframeBox .cancel').on('tap', emt.resources.cancel());
+      $('.iframeBox .cancel').on('tap', emt.resources.cancel);
       $('.resBox').on('pan', function (e) {
         $(this).scrollTop($(this).scrollTop() - e.originalEvent.gesture.deltaY);
         $(this).scrollLeft($(this).scrollLeft() - e.originalEvent.gesture.deltaX);
