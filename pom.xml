@@ -19,11 +19,14 @@
                         <configuration>
                             <webappSourceDir>${basedir}</webappSourceDir>
                             <jsSourceFiles>
+                                <jsSourceFile>util.js</jsSourceFile>
                                 <jsSourceFile>server.js</jsSourceFile>
                                 <jsSourceFile>slides.js</jsSourceFile>
                                 <jsSourceFile>resources.js</jsSourceFile>
                                 <jsSourceFile>values.js</jsSourceFile>
                                 <jsSourceFile>map.js</jsSourceFile>
+                                <jsSourceFile>partners.js</jsSourceFile>
+                                <jsSourceFile>reset.js</jsSourceFile>
                             </jsSourceFiles>
                             <jsFinalFile>emt.js</jsFinalFile>
                             <jsEngine>CLOSURE</jsEngine>

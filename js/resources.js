@@ -1,5 +1,7 @@
 (function($, hammer) {
 
+  "use strict";
+
   // Set up touch functionality for the resources
   const canHam = new hammer($('.iframeBox .cancel')[0], { domEvents: true });
   canHam.get('tap').set({
@@ -31,7 +33,7 @@
       });
       const resMarginRight = $('.res').width() / 6;
       $('.res').css('margin-right', resMarginRight + 'pt');
-      $('.resBox').css('width', (($('.res').width()) * (data.length - .5)) + 'pt');
+      $('.resBox').css('width', (($('.res').width()) * (data.length - 0.5)) + 'pt');
       $('.resBox').css('touch-action', 'pan-x');
     },
 
@@ -48,15 +50,17 @@
         $('.iframeBox').removeClass('hide');
         $('.resBoxContainer').addClass('hide');
       });
-      $('.iframeBox .cancel').on('tap', function () {
-        $('#iframe').html(' ');
-        $('.resBoxContainer').removeClass('hide');
-        $('.iframeBox').addClass('hide');
-      });
+      $('.iframeBox .cancel').on('tap', emt.resources.cancel);
       $('.resBox').on('pan', function (e) {
         $(this).scrollTop($(this).scrollTop() - e.originalEvent.gesture.deltaY);
         $(this).scrollLeft($(this).scrollLeft() - e.originalEvent.gesture.deltaX);
       });
+    },
+
+    cancel: function () {
+      $('#iframe').html(' ');
+      $('.resBoxContainer').removeClass('hide');
+      $('.iframeBox').addClass('hide');
     }
 
   };
