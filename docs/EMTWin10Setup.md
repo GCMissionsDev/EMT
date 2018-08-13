@@ -3,6 +3,7 @@ Steps for anyone to set up the Educational Missions Tool touchscreen kiosk on a 
 If you have any questions or concerns, please feel free to contact Jake O'Donnell.  
 Text or email Jake at 781-521-3314 or jakeod99@gmail.com, respectively.  
 God bless!  
+
 ## Setting up the computer to make a secure Kiosk
 1. Connect computer to wifi
 2. If you don't already have it, download Google Chrome [here](https://www.google.com/chrome/)
@@ -12,6 +13,7 @@ God bless!
 6. Double click the file from the desktop to merge it
 7. When prompted, click on **Run**, **Yes (UAC)**, **Yes**, and **OK** to approve the merge.
 8. Restart the computer  
+
 ## Setting up the computer to remain on as a kiosk
 1. Go to *Settings* (Windows Key + U)
 2. Type `Change when the PC Sleeps` in the search bar and select the option that says the same
@@ -22,6 +24,7 @@ God bless!
 	1. On battery power, PC goes to sleep after **Never**
 	2. When plugged in, PC goes to sleep after **Never**
 5. Exit *Settings*  
+
 ## Getting EMT to run upon starting the computer
 1. Open File Explorer (Windows Key + E)
 2. Find chrome.exe (probably C:\Program Files (x86)\Google\Chrome\Application\chrome.exe)  
